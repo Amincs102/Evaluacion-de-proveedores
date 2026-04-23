@@ -552,7 +552,7 @@
     </div>
 
     <div class="nav-row">
-      <button class="btn-next" onclick="goStep(1)">Siguiente: Bloque A — Calidad &rarr;</button>
+      <button class="btn-next" onclick="goStep(1)">Siguiente: Bloque A — Calidad →</button>
     </div>
     <p class="disclaimer">
       Los datos facilitados serán tratados conforme al RGPD (UE) 2016/679 con la finalidad exclusiva de
@@ -922,7 +922,7 @@ function getMedalla(score) {
 // ═══════════════════════════════════════════
 async function enviarFormulario() {
   // Validar campos obligatorios
-  const reqs = ['f-razon', 'f-cif', 'f-contacto', 'f-email'];
+  const reqs = ['f-razon', 'f-cif', 'f-contacto', 'f-email', 'f-cat'];
   let ok = true;
   reqs.forEach(id => {
     const el = document.getElementById(id);
